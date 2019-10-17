@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+<title>Lesson 10 - JQUERY</title>
+<style>
+.errors {
+	border-color: red;
+	background-color: #f4aeb2;
+}
+.invisible {
+	visibility: hidden;
+}
+
+.visible {
+	visibility: visible;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</head>
+<body>
+
+<h1>Input form</h1>
+	<form>
+		<label>Прізвище</label><br> <input type="text" id="getLastName" value="Скалецький"><br>
+		<label>Ім"я</label><br> <input type="text" id="getFirstName" value="Петро"><br>
+		<label>Вік</label><br> <input type="text" id="getAge" value="32"><label class='invisible' id='ageLabel'>Вік має бути в межах від 0 до 100</label><br>
+		<label>Місце проживання</label><br> <input type="text" id="getAddress" value="Тернопіль"><br>
+		<br> <input type="button" value="Send by Get" id="ajaxGet">
+		<input type="button" value="Send by Post" id="ajaxPost">	
+
+	</form>
+
+<script src="jquery.js"></script>
+</body>
+</html>
