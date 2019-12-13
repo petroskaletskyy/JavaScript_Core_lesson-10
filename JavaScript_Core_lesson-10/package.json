@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "devDependencies": {
         "express": "4.16.4",
-        "npm": "6.8.0"
+        "npm": "6.13.4"
     },
     "dependencies": {
         "body-parser": "^1.18.3"
